@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using ClientGUI;
 using Rampastring.Tools;
 using Rampastring.XNAUI;
@@ -151,3 +152,4 @@ namespace DTAConfig.Settings
 
     }
 }
+*/

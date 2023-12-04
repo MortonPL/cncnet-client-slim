@@ -1,3 +1,4 @@
+/*
 using ClientCore.Extensions;
 using ClientCore;
 using ClientGUI;
@@ -969,3 +970,4 @@ namespace DTAConfig.OptionPanels
         }
     }
 }
+*/

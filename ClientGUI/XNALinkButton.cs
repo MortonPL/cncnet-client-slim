@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using Rampastring.XNAUI;
 using Rampastring.Tools;
 using ClientCore;
@@ -42,3 +43,4 @@ namespace ClientGUI
         }
     }
 }
+*/

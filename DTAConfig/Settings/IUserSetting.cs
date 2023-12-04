@@ -1,4 +1,5 @@
-﻿namespace DTAConfig.Settings
+﻿/*
+namespace DTAConfig.Settings
 {
     interface IUserSetting
     {
@@ -32,3 +33,4 @@
         bool Save();
     }
 }
+*/

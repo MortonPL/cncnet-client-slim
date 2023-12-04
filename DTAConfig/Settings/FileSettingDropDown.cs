@@ -1,3 +1,4 @@
+/*
 using ClientCore;
 using Rampastring.Tools;
 using Rampastring.XNAUI;
@@ -120,3 +121,4 @@ namespace DTAConfig.Settings
         }
     }
 }
+*/

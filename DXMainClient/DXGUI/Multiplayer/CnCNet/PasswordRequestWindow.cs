@@ -1,4 +1,5 @@
-﻿using ClientGUI;
+﻿/*
+using ClientGUI;
 using DTAClient.Domain.Multiplayer.CnCNet;
 using ClientCore.Extensions;
 using Microsoft.Xna.Framework;
@@ -130,3 +131,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
         public HostedCnCNetGame HostedGame { get; private set; }
     }
 }
+*/

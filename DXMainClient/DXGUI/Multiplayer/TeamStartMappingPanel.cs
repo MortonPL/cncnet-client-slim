@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using ClientGUI;
 using DTAClient.Domain.Multiplayer;
 using Microsoft.Xna.Framework;
@@ -66,3 +67,4 @@ namespace DTAClient.DXGUI.Multiplayer
         }
     }
 }
+*/

@@ -1,4 +1,5 @@
-﻿using ClientCore;
+﻿/*
+using ClientCore;
 using ClientCore.Extensions;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -174,3 +175,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
         }
     }
 }
+*/

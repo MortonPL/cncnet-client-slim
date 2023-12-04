@@ -1,4 +1,5 @@
-﻿using ClientGUI;
+﻿/*
+using ClientGUI;
 using Rampastring.XNAUI;
 
 namespace DTAClient.DXGUI.Multiplayer.CnCNet
@@ -35,3 +36,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
 
     }
 }
+*/

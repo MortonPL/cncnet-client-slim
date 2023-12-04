@@ -1,4 +1,5 @@
-﻿using ClientCore.Extensions;
+﻿/*
+using ClientCore.Extensions;
 using ClientCore;
 using ClientGUI;
 using Microsoft.Xna.Framework;
@@ -173,3 +174,4 @@ namespace DTAConfig.OptionPanels
         }
     }
 }
+*/

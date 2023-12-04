@@ -1,4 +1,5 @@
-﻿using Rampastring.XNAUI.XNAControls;
+﻿/*
+using Rampastring.XNAUI.XNAControls;
 using System;
 using Rampastring.XNAUI;
 using Microsoft.Xna.Framework;
@@ -108,3 +109,4 @@ namespace ClientGUI
         }
     }
 }
+*/

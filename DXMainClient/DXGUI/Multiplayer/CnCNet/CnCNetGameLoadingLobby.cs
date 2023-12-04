@@ -1,3 +1,4 @@
+/*
 using ClientCore;
 using ClientCore.CnCNet5;
 using ClientGUI;
@@ -723,3 +724,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
         }
     }
 }
+*/

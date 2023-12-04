@@ -1,4 +1,5 @@
-﻿using DTAClient.Domain.Multiplayer.CnCNet;
+﻿/*
+using DTAClient.Domain.Multiplayer.CnCNet;
 using ClientCore.Extensions;
 using Microsoft.Xna.Framework;
 using Rampastring.Tools;
@@ -174,3 +175,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
         }
     }
 }
+*/

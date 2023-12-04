@@ -1,4 +1,5 @@
-﻿namespace DTAConfig.Settings
+﻿/*
+namespace DTAConfig.Settings
 {
     interface IFileSetting : IUserSetting
     {
@@ -22,3 +23,4 @@
         bool RefreshSetting();
     }
 }
+*/

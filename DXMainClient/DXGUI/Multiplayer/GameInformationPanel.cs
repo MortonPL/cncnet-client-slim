@@ -1,4 +1,5 @@
-﻿using Rampastring.XNAUI.XNAControls;
+﻿/*
+using Rampastring.XNAUI.XNAControls;
 using Rampastring.XNAUI;
 using Microsoft.Xna.Framework;
 using DTAClient.Domain.Multiplayer;
@@ -153,3 +154,4 @@ namespace DTAClient.DXGUI.Multiplayer
         }
     }
 }
+*/

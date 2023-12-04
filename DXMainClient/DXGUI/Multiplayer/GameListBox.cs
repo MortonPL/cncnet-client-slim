@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using ClientCore;
@@ -353,3 +354,4 @@ namespace DTAClient.DXGUI.Multiplayer
         }
     }
 }
+*/

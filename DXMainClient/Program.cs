@@ -24,18 +24,6 @@ namespace DTAClient
 
             COMMON_LIBRARY_PATH = Path.Combine(startupPath, "Binaries") + Path.DirectorySeparatorChar;
 
-#if XNA
-            SPECIFIC_LIBRARY_PATH = Path.Combine(startupPath, "Binaries", "XNA") + Path.DirectorySeparatorChar;
-#elif GL && ISWINDOWS
-            SPECIFIC_LIBRARY_PATH = Path.Combine(startupPath, "Binaries", "OpenGL") + Path.DirectorySeparatorChar;
-#elif GL && !ISWINDOWS
-            SPECIFIC_LIBRARY_PATH = Path.Combine(startupPath, "Binaries", "UniversalGL") + Path.DirectorySeparatorChar;
-#elif DX
-            SPECIFIC_LIBRARY_PATH = Path.Combine(startupPath, "Binaries", "Windows") + Path.DirectorySeparatorChar;
-#else
-            Yuri has won
-#endif
-
             // Set up DLL load paths as early as possible
             AssemblyLoadContext.Default.Resolving += DefaultAssemblyLoadContextOnResolving;
         }
@@ -47,14 +35,10 @@ namespace DTAClient
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-#if WINFORMS
-        [STAThread]
-#endif
         static void Main(string[] args)
         {
-            bool noAudio = false;
             bool multipleInstanceMode = false;
-            List<string> unknownStartupParams = new List<string>();
+            List<string> unknownStartupParams = new();
 
             for (int arg = 0; arg < args.Length; arg++)
             {
@@ -62,9 +46,6 @@ namespace DTAClient
 
                 switch (argument)
                 {
-                    case "-NOAUDIO":
-                        noAudio = true;
-                        break;
                     case "-MULTIPLEINSTANCE":
                         multipleInstanceMode = true;
                         break;
@@ -74,7 +55,7 @@ namespace DTAClient
                 }
             }
 
-            var parameters = new StartupParams(noAudio, multipleInstanceMode, unknownStartupParams);
+            var parameters = new StartupParams(multipleInstanceMode, unknownStartupParams);
 
             if (multipleInstanceMode)
             {

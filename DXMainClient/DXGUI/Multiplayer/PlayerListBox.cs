@@ -1,4 +1,5 @@
-﻿using ClientCore.CnCNet5;
+﻿#if false
+using ClientCore.CnCNet5;
 using DTAClient.Online;
 using ClientCore.Extensions;
 using Microsoft.Xna.Framework;
@@ -167,3 +168,4 @@ namespace DTAClient.DXGUI.Multiplayer
         }
     }
 }
+#endif

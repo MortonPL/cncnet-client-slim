@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -116,3 +117,4 @@ namespace ClientGUI
             => serviceProvider.GetService(type) ?? throw new Exception($"Control type {type.Name} was not registered with ServiceCollection in GameClass");
     }
 }
+*/

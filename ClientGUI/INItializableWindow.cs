@@ -1,4 +1,5 @@
-﻿using ClientCore;
+﻿/*
+using ClientCore;
 using ClientCore.I18N;
 using ClientCore.Extensions;
 using Microsoft.Xna.Framework;
@@ -285,3 +286,4 @@ namespace ClientGUI
         }
     }
 }
+*/

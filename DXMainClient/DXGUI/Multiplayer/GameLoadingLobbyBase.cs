@@ -1,4 +1,5 @@
-﻿using ClientCore;
+﻿/*
+using ClientCore;
 using ClientCore.Statistics;
 using ClientGUI;
 using DTAClient.Domain;
@@ -524,3 +525,4 @@ namespace DTAClient.DXGUI.Multiplayer
         public abstract string GetSwitchName();
     }
 }
+*/

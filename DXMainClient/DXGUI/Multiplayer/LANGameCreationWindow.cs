@@ -1,4 +1,5 @@
-﻿using ClientGUI;
+﻿/*
+using ClientGUI;
 using System;
 using Rampastring.XNAUI;
 using Rampastring.XNAUI.XNAControls;
@@ -148,3 +149,4 @@ namespace DTAClient.DXGUI.Multiplayer
         public int LoadedGameID { get; private set; }
     }
 }
+*/

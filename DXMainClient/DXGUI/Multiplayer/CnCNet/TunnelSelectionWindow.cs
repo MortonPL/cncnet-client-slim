@@ -1,4 +1,5 @@
-﻿using ClientGUI;
+﻿/*
+using ClientGUI;
 using DTAClient.Domain.Multiplayer.CnCNet;
 using ClientCore.Extensions;
 using Rampastring.XNAUI;
@@ -131,3 +132,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
         public CnCNetTunnel Tunnel { get; }
     }
 }
+*/

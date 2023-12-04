@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Reflection;
-#if WINFORMS
-using System.Windows.Forms;
-#endif
 using Rampastring.Tools;
 using ClientCore.Extensions;
 
@@ -117,12 +114,10 @@ namespace ClientCore
         /// </summary>
         public static Action<string, string, bool> DisplayErrorAction { get; set; } = (title, error, exit) =>
         {
-            Logger.Log(FormattableString.Invariant($"{(title is null ? null : title + Environment.NewLine + Environment.NewLine)}{error}"));
-#if WINFORMS
-            MessageBox.Show(error, title, MessageBoxButtons.OK);
-#else
+            var message = FormattableString.Invariant($"{(title is null ? null : title + Environment.NewLine + Environment.NewLine)}{error}");
+            Logger.Log(message);
+            Console.WriteLine(message);
             ProcessLauncher.StartShellProcess(LogFileName);
-#endif
 
             if (exit)
                 Environment.Exit(1);

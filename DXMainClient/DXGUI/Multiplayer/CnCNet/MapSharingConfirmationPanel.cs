@@ -1,4 +1,5 @@
-﻿using ClientGUI;
+﻿/*
+using ClientGUI;
 using ClientCore.Extensions;
 using Rampastring.XNAUI;
 using Rampastring.XNAUI.XNAControls;
@@ -82,3 +83,4 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
         }
     }
 }
+*/

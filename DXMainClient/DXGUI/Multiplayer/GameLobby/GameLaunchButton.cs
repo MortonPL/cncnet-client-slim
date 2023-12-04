@@ -1,4 +1,5 @@
-﻿using ClientGUI;
+﻿/*
+using ClientGUI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Rampastring.XNAUI;
@@ -80,3 +81,4 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
         }
     }
 }
+*/

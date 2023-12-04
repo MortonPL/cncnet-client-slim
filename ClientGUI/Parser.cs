@@ -17,7 +17,7 @@
 * along with this program.If not, see<https://www.gnu.org/licenses/>.
 * 
 *********************************************************************/
-
+/*
 using ClientCore;
 using Rampastring.Tools;
 using Rampastring.XNAUI;
@@ -314,3 +314,4 @@ namespace ClientGUI
         private bool IsEndOfInput() => tokenPlace >= Input.Length;
     }
 }
+*/

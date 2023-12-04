@@ -1,4 +1,5 @@
-﻿using ClientCore;
+﻿/*
+using ClientCore;
 using Rampastring.Tools;
 using System;
 using System.Collections.Generic;
@@ -82,3 +83,4 @@ namespace ClientGUI
         }
     }
 }
+*/

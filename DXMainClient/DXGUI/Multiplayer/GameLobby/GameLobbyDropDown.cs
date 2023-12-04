@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using Rampastring.Tools;
 using Rampastring.XNAUI;
 using Rampastring.XNAUI.XNAControls;
@@ -157,3 +158,4 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
         }
     }
 }
+*/

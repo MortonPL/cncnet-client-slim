@@ -1,4 +1,5 @@
-﻿using ClientCore;
+﻿/*
+using ClientCore;
 using ClientCore.Statistics;
 using ClientGUI;
 using DTAClient.Domain;
@@ -2470,3 +2471,4 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
         protected abstract bool AllowPlayerOptionsChange();
     }
 }
+*/

@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using ClientCore.Extensions;
 using Microsoft.Xna.Framework.Graphics;
@@ -68,3 +69,4 @@ namespace ClientGUI
         }
     }
 }
+*/

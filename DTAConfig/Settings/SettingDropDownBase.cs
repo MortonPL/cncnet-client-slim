@@ -1,4 +1,5 @@
-﻿using ClientCore.Extensions;
+﻿/*
+using ClientCore.Extensions;
 using ClientCore.I18N;
 using ClientGUI;
 using Rampastring.Tools;
@@ -84,3 +85,4 @@ namespace DTAConfig.Settings
         public abstract bool Save();
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 using ClientCore;
 using Microsoft.Xna.Framework;
 using Rampastring.XNAUI;
@@ -169,3 +170,4 @@ namespace ClientGUI
 #endif
     }
 }
+*/

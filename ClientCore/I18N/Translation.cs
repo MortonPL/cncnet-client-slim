@@ -5,7 +5,6 @@ using System.IO;
 using System.Linq;
 using ClientCore.Extensions;
 using Rampastring.Tools;
-using Rampastring.XNAUI.XNAControls;
 
 namespace ClientCore.I18N;
 
@@ -304,8 +303,10 @@ public class Translation : ICloneable
     /// <param name="defaultValue">The value to fall back to in case there's no translated value.</param>
     /// <param name="notify">Whether to add this key and value to the list of missing key-values.</param>
     /// <returns>The translated value or a default value.</returns>
-    public string LookUp(XNAControl control, string attributeName, string defaultValue, bool notify = true)
+    public string LookUp(object control, string attributeName, string defaultValue, bool notify = true)
     {
+        throw new NotImplementedException("Replacement for XNA controls is not implemented yet.");
+        /*
         string key = $"{INI_PREFIX}:{CONTROLS_PREFIX}:{control.Parent?.Name ?? GLOBAL_PREFIX}:{control.Name}:{attributeName}";
         string globalKey = $"{INI_PREFIX}:{CONTROLS_PREFIX}:{GLOBAL_PREFIX}:{control.Name}:{attributeName}";
 
@@ -327,5 +328,6 @@ public class Translation : ICloneable
         }
 
         return result;
+        */
     }
 }

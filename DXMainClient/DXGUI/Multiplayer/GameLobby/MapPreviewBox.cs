@@ -1,4 +1,5 @@
-﻿using ClientCore;
+﻿/*
+using ClientCore;
 using DTAClient.Domain.Multiplayer;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -691,3 +692,4 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
         public int StartingLocationIndex { get; set; }
     }
 }
+*/

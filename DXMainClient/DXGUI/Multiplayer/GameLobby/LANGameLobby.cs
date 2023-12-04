@@ -1,3 +1,4 @@
+/*
 using ClientCore;
 using DTAClient.Domain;
 using DTAClient.Domain.LAN;
@@ -1131,3 +1132,4 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
     }
 
 }
+*/

@@ -1,4 +1,5 @@
-﻿using ClientCore.Extensions;
+﻿/*
+using ClientCore.Extensions;
 using System;
 using Microsoft.Xna.Framework;
 using Rampastring.XNAUI.XNAControls;
@@ -311,3 +312,4 @@ namespace ClientGUI
         OKCancel
     }
 }
+*/

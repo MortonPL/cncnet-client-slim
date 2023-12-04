@@ -1,3 +1,4 @@
+/*
 using ClientCore;
 using ClientCore.CnCNet5;
 using ClientGUI;
@@ -1935,3 +1936,4 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
         public override string GetSwitchName() => "Game Lobby".L10N("Client:Main:GameLobby");
     }
 }
+*/

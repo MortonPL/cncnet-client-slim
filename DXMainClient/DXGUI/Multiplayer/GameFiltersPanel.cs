@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using ClientCore;
 using ClientGUI;
 using ClientCore.Extensions;
@@ -185,3 +186,4 @@ namespace DTAClient.DXGUI.Multiplayer
         }
     }
 }
+*/
